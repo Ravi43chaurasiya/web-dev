@@ -1,6 +1,7 @@
 *{
     margin:0;
     padding: 0;
+    background-color: darkgray;
 }
 
 #container{
@@ -9,10 +10,13 @@
     border-radius: 5px;
     margin: 50px auto;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: coral;
+    z-index: 289;
 }
 
 h1{
     text-align: center;
+    background-color: brown;
 }
 
 #screen{
@@ -23,11 +27,14 @@ h1{
 
 #screen:focus{
     outline: none;
+    background-color: cadetblue;
 }
 
 table{
     margin: 0px auto;
     border: 8px solid lightgray;
+    border-bottom: 8px solid coral;
+    border-radius: 5px;
 }
 
 td{
@@ -43,7 +50,9 @@ td{
 
 td:active{
     transform: scale(0.85);
+
 }
+
 
 button{
     height: 100%;
@@ -56,4 +65,8 @@ button{
 
 button:hover{
     cursor: pointer;
+    background-color: aquamarine;
+}
+input{
+    border-radius: 5px;
 }
